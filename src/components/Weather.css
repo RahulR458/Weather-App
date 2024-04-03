@@ -17,39 +17,70 @@ body{
 .weather-icons{
     height: 100%;
     width: 60%;
-    background-color: rgb(214, 18, 145);
+    /* background-color: rgb(214, 18, 145); */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-.climate-group-one{
-    background-color: rgb(81, 165, 42);
+.climate-box-one{
+    background-color: rgb(66, 87, 57);
     width: 100%;
-    height: 22%;
-    display: flex;
-    align-items: center;
-    padding: 10px;
+    height: 25%;
+    /* padding-top: 5px;
+    padding-left: 5px; */
+    border-radius: 8px;
 }
 
-.climate-group-two{
+.text-climate{
+    font-size: x-small;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-family: sans-serif;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-around;
+    width: 28%;
+}
+
+.fa-clock, .fa-calendar-week{
+    font-size: medium;
+}
+
+.fa-calendar-day{
+    font-size: medium;
+    padding-top: 3px;
+}
+
+.climate-group-one{
+    /* background-color: rgb(81, 165, 42); */
+    width: 100%;
+    height: 75%;
+    display: flex;
+    align-items: center;
+    /* padding: 52px; */
+}
+
+/* .climate-group-two{
     background-color: rgb(235, 137, 17);
     width: 100%;
-    height: 22%;
+    height: 25%;
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     padding: 10px;
-}
+    border-radius: 8px;
+} */
 
 .climate{
-    width: 20%;
-    height: 80%;
+    width: 10%;
+    height: 70%;
     background-color: rgb(16, 182, 163);
     margin-left: 10px;
+    border-radius: 9px;
 }
 
 .weather-container{
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
     width: 35%;
     height: 100%;
     border-radius: 10px;
@@ -58,16 +89,19 @@ body{
     justify-content: space-between;
 }
 
-.weather-box{
+.weather-box-container{
     width: 100%;
-    height: 50%;
+    height: 45%;
     background-color: rgb(3, 44, 209);
+    border-radius: 8px;
 }
 
 .weather__search{
     width: 100%;
-    height: 5%;
-    background-color: rgb(123, 77, 8);
+    height: 90%;
+    /* background-color: rgb(123, 77, 8); */
+    display: flex;
+    justify-content: space-between;
 }
 
 .weather__info{
@@ -76,13 +110,67 @@ body{
     background-color: rgb(9, 224, 73);
     display: flex;
     justify-content: center;
+    border-radius: 8px;
+    padding-top: 45%;
+}
 
+.fa-location-dot{
+    font-size: 22px;
 }
 
 .search-name{
-    width: 100%;
+    width: 94%;
     padding: 5px;
     border-radius: 10px;
     border: none;
     outline: none;
+    background-color: rgb(40, 36, 36);
+    color: bisque;
+    padding-left: 10px;
+}
+
+.weather-group{
+    /* background-color: rgb(1, 35, 63); */
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    height: 41%;
+}
+
+.weather-box{
+    background-color: azure;
+    width: 25%;
+    height: 90%;
+    border-radius: 8px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.text-highlights{
+    font-size: x-small;
+    padding-top: 10px;
+    font-family: sans-serif;
+    padding-left: 10px;
+    display: flex;
+    justify-content: space-around;
+    width: 33%;
+}
+
+.fa-temperature-three-quarters, .fa-snowflake,  .fa-eye-slash, .fa-droplet, .fa-temperature-arrow-down, .fa-wind{
+    padding: 5px;
+}
+
+.fa-cloud{
+    display: flex;
+    justify-content: center;
+}
+
+h5, h3{
+    padding-top: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+h3{
+    padding-top: 1px;
 }
