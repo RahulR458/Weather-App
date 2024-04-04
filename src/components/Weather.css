@@ -1,9 +1,9 @@
 body{
-    background-color: rgb(51, 51, 51);
+    background-image: url("/public/background-image.jpg");
 }
 
 .weather{
-    background-color: brown;
+    background-image: url("/public/backgoound-image -dark.jpg");
     width: 75%;
     height: 580px;
     margin-top: 80px;
@@ -24,7 +24,18 @@ body{
 }
 
 .climate-box-one{
-    background-color: rgb(66, 87, 57);
+    /* background-color: rgb(192, 188, 188); */
+    background-image: url("/public/backgoound-image\ -\ inners.jpg");
+    width: 100%;
+    height: 22%;
+    /* padding-top: 5px;
+    padding-left: 5px; */
+    border-radius: 8px;
+}
+
+.climate-box-two{
+    /* background-color: rgb(66, 87, 57); */
+    background-image: url("/public/backgoound-image\ -\ inners.jpg");
     width: 100%;
     height: 25%;
     /* padding-top: 5px;
@@ -41,6 +52,7 @@ body{
     display: flex;
     justify-content: space-around;
     width: 28%;
+    color: rgb(103, 103, 103);
 }
 
 .fa-clock, .fa-calendar-week{
@@ -61,22 +73,22 @@ body{
     /* padding: 52px; */
 }
 
-/* .climate-group-two{
-    background-color: rgb(235, 137, 17);
-    width: 100%;
-    height: 25%;
-    display: flex;
-    align-items: flex-end;
-    padding: 10px;
-    border-radius: 8px;
-} */
+.climate-group-two{
+     /* background-color: rgb(81, 165, 42); */
+     width: 100%;
+     height: 82%;
+     display: flex;
+     align-items: center;
+     /* padding: 52px; */
+}
 
 .climate{
     width: 10%;
     height: 70%;
-    background-color: rgb(16, 182, 163);
+    background-color: rgb(63, 63, 63);
     margin-left: 10px;
     border-radius: 9px;
+    color: rgb(194, 194, 194);
 }
 
 .weather-container{
@@ -92,14 +104,17 @@ body{
 .weather-box-container{
     width: 100%;
     height: 45%;
-    background-color: rgb(3, 44, 209);
+    /* background-color: rgb(3, 44, 209); */
+    background-image: url("/public/backgoound-image\ -\ inner.jpg");
     border-radius: 8px;
 }
 
 .weather__search{
     width: 100%;
     height: 90%;
-    /* background-color: rgb(123, 77, 8); */
+    background-color: rgb(130, 128, 128);
+    /* color: rgb(0, 0, 0); */
+    border-radius: 10px;
     display: flex;
     justify-content: space-between;
 }
@@ -107,15 +122,24 @@ body{
 .weather__info{
     width: 100%;
     height: 92%;
-    background-color: rgb(9, 224, 73);
+    /* background-color: rgb(255, 255, 255); */
+    background-image: url("/public/backgoound-image\ -\ inners.jpg");
     display: flex;
     justify-content: center;
     border-radius: 8px;
     padding-top: 45%;
 }
 
+.text-weather-info{
+    color: rgb(255, 255, 255);
+    opacity: 1;
+}
+
 .fa-location-dot{
-    font-size: 22px;
+    padding-top: 5px;
+    padding-left: 8px;
+    font-size: 14px;
+    color: rgb(41, 40, 40);
 }
 
 .search-name{
@@ -124,8 +148,9 @@ body{
     border-radius: 10px;
     border: none;
     outline: none;
-    background-color: rgb(40, 36, 36);
-    color: bisque;
+    background-color: rgb(130, 128, 128);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
     padding-left: 10px;
 }
 
@@ -138,12 +163,14 @@ body{
 }
 
 .weather-box{
-    background-color: azure;
+    background-color: rgb(0, 0, 0);
+    opacity: .7;
     width: 25%;
     height: 90%;
     border-radius: 8px;
     text-align: center;
     padding-top: 5px;
+    color: rgb(129, 129, 129);
 }
 
 .text-highlights{
@@ -154,10 +181,12 @@ body{
     display: flex;
     justify-content: space-around;
     width: 33%;
+    color: rgb(165, 165, 165);
 }
 
 .fa-temperature-three-quarters, .fa-snowflake,  .fa-eye-slash, .fa-droplet, .fa-temperature-arrow-down, .fa-wind{
     padding: 5px;
+    color: rgb(129, 129, 129);
 }
 
 .fa-cloud{
@@ -173,4 +202,9 @@ h5, h3{
 
 h3{
     padding-top: 1px;
+}
+
+h6{
+    display: flex;
+    justify-content: center;
 }

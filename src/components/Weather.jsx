@@ -6,14 +6,14 @@ export default function Weather() {
     <>
       <div  className="weather">
         <div  className="weather-container">
-        <div>
-          <form action="" className='weather__search'>
-          <span className="fa-solid fa-location-dot"></span>
-            <input type="text" className="search-name" />
-          </form>
-        </div>
-          <div  className="weather__info">
-            <div>
+          <div>
+            <form action="" className='weather__search'>
+            <span className="fa-solid fa-location-dot"></span>
+              <input type="text" className="search-name" />
+            </form>
+          </div>
+          <div className="weather__info">
+            <div className='text-weather-info'>
               <h1>23 &deg;C,</h1> 
               Mostly Cloudy
             </div>
@@ -27,10 +27,10 @@ export default function Weather() {
               <div className='climate'></div>
             </div>
           </div>
-          <div className='climate-box-one'>
+          <div className='climate-box-two'>
             <div className='text-climate'><i class="fa-solid fa-calendar-week"></i><h2>7 DAYS FORECAST</h2></div>
-            <div className='climate-group-one'>
-              <div className='climate'><i class="fa-solid fa-cloud"></i></div>
+            <div className='climate-group-two'>
+              <div className='climate'><h5>Now</h5><h6>09/05</h6><h3>28 &deg;</h3><i class="fa-solid fa-cloud"></i></div>
               <div className='climate'></div>
             </div>
           </div>
